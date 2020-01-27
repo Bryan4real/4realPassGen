@@ -113,6 +113,13 @@ def main():
 						for account in show_user_details(uname):
 							print(f'Account name: {account.acc_name} - Password: {account.password}')
 							print(' ')
+					else:
+						print(' ')
+						print('No accounts saved yet ')
+						print(' ')
+				else:
+					print('Wrong option. Try again! ')
+					
 
 
 
