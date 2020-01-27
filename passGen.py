@@ -4,14 +4,14 @@ import string
 from random import *
 from math import *
 
-def add_used(user_name, password):
+def add_user(user_name, password):
 	'''
 	Function to add user account to the system
 	'''
 	newUser = User(user_name, password)
 	return newUser
 
-def user_acc
+def user_acc(user):
 	'''
 	A function to save the user account after user enters detsils
 	'''
@@ -52,27 +52,38 @@ def main():
 	print('Welcome to 4RealPassGen')
 	print(' ')
 	print('Use codes to proceed: \n rg - Register an Account \n li - Log In \n q - QUIT')
+	code = input('Enter Option: ').lower().strip()
+	if code == 'q':
+		break
+	elif code == 'rg':
+		print('*'*70)
+		print('Follow steps to Register account: ')
+		name = input('Enter username - ').strip()
+		password = input('Enter your desired Password - ').strip()
+		user_acc(add_user(name,password))
+		print(' ')
+		print(f'Registration successful: username - {name} your password - {password}')
+	elif code == 'li':
 
 
 
+# print(' ')
+# print('welcome to 4RealPassGen! Enter 1 To login or 2 to register')
+# print(' ')
+# sell = input()
+# if sell == 1:
+# 	username = input('enter username').strip
+# 	passwrd = input('enter password').strip
 
-print(' ')
-print('welcome to 4RealPassGen! Enter 1 To login or 2 to register')
-print(' ')
-sell = input()
-if sell == 1:
-	username = input('enter username').strip
-	passwrd = input('enter password').strip
-
-if sell == 2:
-	print('enter username')
-	username = input()
-	print('entter email')
-	usermail = input()
-	print('enter password')
-	passwrd = input()
-if sell != 1 and sell != 2 :
-	print('INVALID INPUT')
+# if sell == 2:
+# 	print('enter username')
+# 	username = input()
+# 	print('entter email')
+# 	usermail = input()
+# 	print('enter password')
+# 	passwrd = input()
+# if sell != 1 and sell != 2 :
+# 	print('INVALID INPUT')
 
 
 
