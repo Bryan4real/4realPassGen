@@ -119,6 +119,16 @@ def main():
 						print(' ')
 				else:
 					print('Wrong option. Try again! ')
+		else:
+			print(' ')
+			print('Entered wrong details. Try again!')
+	else:
+		print('*'*70)
+		print(' ')
+		print('Entered wrong option try again!')
+
+if __name__ == '__main__':
+	main()
 					
 
 
