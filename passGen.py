@@ -64,6 +64,15 @@ def main():
 		print(' ')
 		print(f'Registration successful: username - {name} your password - {password}')
 	elif code == 'li':
+		print(' ')
+		print('*'*70)
+		print('Enter your details to LOGIN : ')
+		uname = input('Enter your username : ')
+		password = str(input('Enter your Password : '))
+		member = verify(uname, password)
+		if member == uname:
+			print(' ')
+
 
 
 
