@@ -47,7 +47,11 @@ def show_user_details(uname)
 	return user_details.show_user_details(uname)
 
 
-
+def main():
+	print(" ")
+	print('Welcome to 4RealPassGen')
+	print(' ')
+	print('Use codes to proceed: \n rg - Register an Account \n li - Log In \n q - QUIT')
 
 
 
