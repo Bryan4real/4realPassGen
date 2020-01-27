@@ -39,6 +39,7 @@ def create_user(uname, acc_name, password):
 		'''
 		Function for saving a newly created/added user
 		'''
+		return user_details.save_user_details(user_details)
 
 
 
