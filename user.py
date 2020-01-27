@@ -59,7 +59,7 @@ class user_details:
 		pass_gen = "".join(choice(characters)for x in range(8,16))
 		return pass_gen
 	@classmethod
-	def display_user_details(cls,uname):
+	def show_user_details(cls,uname):
 		'''
 		class method to display user_details saved
 		'''
