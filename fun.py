@@ -1,4 +1,3 @@
-
 class User:
 	def __init__(self, name, email, password):
 		self.name = name
@@ -9,6 +8,6 @@ def dis(self):
 	print('your details ' + self.name + self.email + self.password)
 
 			
-u1 = User('Bryan', 'mwiruki@outlook.com', 'password')
+# u1 = User('Bryan', 'mwiruki@outlook.com', 'password')
 
-dis(u1)
+# dis(u1)
