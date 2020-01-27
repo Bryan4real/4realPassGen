@@ -35,17 +35,19 @@ def create_user(uname, acc_name, password):
 	'''
 	 user1 = user_details(uname, acc_name, password)
 	 return user1
-	def save_user_details(user_details):
-		'''
-		Function for saving a newly created/added user
-		'''
-		return user_details.save_user_details(user_details)
-	def show_user_details(uname)
+def save_user_details(user_details):
+	'''
+	Function for saving a newly created/added user
+	'''
+	return user_details.save_user_details(user_details)
+def show_user_details(uname)
 	'''
 	Function too display user details saved 
 	'''
-		return user_details.show_user_details(uname)
-		
+	return user_details.show_user_details(uname)
+
+
+
 
 
 
@@ -71,10 +73,10 @@ if sell != 1 and sell != 2 :
 
 
 
-characters = string.ascii_letters + string.digits + string.punctuation
-password = "".join(choice(characters)for x in range(8,16))
-# print(password)
-# print(len(password))
+# characters = string.ascii_letters + string.digits + string.punctuation
+# password = "".join(choice(characters)for x in range(8,16))
+# # print(password)
+# # print(len(password))
 
 u1 = User(username, email, password)
 
