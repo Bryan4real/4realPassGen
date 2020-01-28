@@ -34,6 +34,10 @@ As a user I would like:
 ## Technologies Used
 * Python3.7
 
+## Codebeat Badge
+ 
+ [![codebeat badge](https://codebeat.co/badges/b717b26f-9682-4564-ad7d-aa3b5c7ddd2f)](https://codebeat.co/projects/github-com-bryan4real-4realpassgen-master)
+
 ## Further help
 
 contact developer through mwiruki@outlook.com
