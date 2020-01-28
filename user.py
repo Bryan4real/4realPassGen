@@ -1,4 +1,5 @@
 import string 
+from random import *
 
 global proifle
 
@@ -6,7 +7,7 @@ class User:
 	'''
 	Class to create and save user accounts with details
 	'''
-	profile[]
+	profile=[]
 	def __init__(self, name, password):
 		'''
 		constructor/method to define properties for each user object
@@ -17,10 +18,10 @@ class User:
 		self.password = password
 
 	def user_acc(self):
-	'''
-	Function to save a new accout that is created by the user
-	'''
-	User.profile.append(self)
+		'''
+		Function to save a new accout that is created by the user
+		'''
+		User.profile.append(self)
 
 class user_details:
 	'''
@@ -51,13 +52,13 @@ class user_details:
 		'''
 		user_details.details_list.append(self)
 
-	def password_gen():
-		'''
-		Function to generate an 8 character password for user
-		'''
-		characters = string.ascii_letters + string.digits + string.punctuation
-		pass_gen = "".join(choice(characters)for x in range(8,16))
-		return pass_gen
+	# def password_gen():
+	# 	'''
+	# 	Function to generate an 8 character password for user
+	# 	'''
+	# 	characters = string.ascii_letters + string.digits + string.punctuation
+	# 	pass_gen = "".join(choice(characters)for x in range(8,16))
+	# 	return pass_gen
 	@classmethod
 	def show_user_details(cls,uname):
 		'''
@@ -71,10 +72,4 @@ class user_details:
 
 
 
-# def dis(self):
-# 	print('your details ' + self.name + self.email + self.password)
 
-			
-# u1 = User('Bryan', 'mwiruki@outlook.com', 'password')
-
-# dis(u1)
