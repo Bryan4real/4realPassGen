@@ -29,7 +29,7 @@ def password_gen():
 	'''
 	pass_gen = user_details.password_gen()
 	return pass_gen
-def create_user(uname, acc_name, password):
+def create_user(self, uname, acc_name, password):
 	'''
 	function to create new user object for user details
 	'''
@@ -97,13 +97,13 @@ def main():
 							if p_code == 'gp':
 								characters = string.ascii_letters + string.digits + string.punctuation
 								pass_gen = "".join(choice(characters)for x in range(8,16))
-								password = password_gen
+								password = pass_gen
 								break
 							elif p_code == 'q':
 								break
 							else:
 								print('Wrong option Entered. Try again')
-						save_user_details(create_user(uname, acc_name, password))
+							save_user_details(create_user(uname, acc_name, password))
 						print(' ')
 						print(f'Account added: {acc_name} password : {password}')
 						print(' ')
