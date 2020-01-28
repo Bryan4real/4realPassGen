@@ -45,7 +45,6 @@ def show_user_details(uname):
 	'''
 	return user_details.show_user_details(uname)
 
-
 def main():
 	print(" ")
 	print('Welcome to 4RealPassGen')
@@ -129,8 +128,7 @@ def main():
 			print('Entered wrong option try again!')
 
 if __name__ == '__main__':
-	main()
-					
+	main()	
 
 
 
