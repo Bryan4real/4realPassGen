@@ -29,3 +29,11 @@ class TestUser(unittest.TestCase):
 		'''
 		self.new_user.user_acc()
 		self.assertEqual(len(User.profile),1)
+
+    class Test_user_details(unittest.TestCase):
+	'''
+	Test class that defines test cases for the credentials class behaviours.
+
+	Args:
+	    unittest.TestCase: helps in creating test cases
+	'''
