@@ -1,4 +1,3 @@
-#! /usr/bin/env python3 
 from user import User, user_details
 import string 
 from random import *
@@ -164,6 +163,6 @@ if __name__ == '__main__':
 # # print(password)
 # # print(len(password))
 
-u1 = User(username, email, password)
+# u1 = User(username, email, password)
 
-dis(u1)
+# dis(u1)
