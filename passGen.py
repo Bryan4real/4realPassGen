@@ -1,3 +1,4 @@
+#! /usr/bin/env python3
 from user import User, user_details
 import string 
 from random import *
@@ -142,7 +143,7 @@ if __name__ == '__main__':
 # if sell == 1:
 # 	username = input('enter username').strip
 # 	passwrd = input('enter password').strip
-
+ 
 # if sell == 2:
 # 	print('enter username')
 # 	username = input()
